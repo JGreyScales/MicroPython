@@ -49,4 +49,8 @@ while (true) {
         reset()
     }
     
+    if (input.logoIsPressed()) {
+        music.playTone(Note.C, 10000)
+    }
+    
 }

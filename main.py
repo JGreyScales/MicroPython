@@ -44,4 +44,8 @@ while True:
             seed += 1
             motor.stop()
         reset()
+    
+    if input.logo_is_pressed():
+        music.play_tone(Note.C, 10000)
+
 
